@@ -16,4 +16,5 @@ dependencies {
     testCompile 'org.springframework:spring-context:4.2.5.RELEASE'
     testCompile 'org.springframework:spring-test:4.2.5.RELEASE'
     testCompile 'org.springframework:spring-tx:4.2.5.RELEASE'
+    testCompile 'org.seleniumhq.selenium:selenium-java:2.51.0'
 }

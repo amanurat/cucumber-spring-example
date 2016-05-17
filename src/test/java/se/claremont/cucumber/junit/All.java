@@ -10,6 +10,10 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {
+                "json:build/cucumber/test-reports/all.json",
+                "html:build/cucumber/html/"
+        },
         features = "src/test/resources/",
         glue = "se.claremont"
 )
